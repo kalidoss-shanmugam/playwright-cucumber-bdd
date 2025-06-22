@@ -1,0 +1,64 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-functionality;basic-search-on-bing",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Basic search on Bing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the search page",
+            "match": {
+              "location": "features\\step-definitions\\search.steps.ts:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2469900,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'navigate')\n    at World.<anonymous> (C:\\Users\\smkdo\\OneDrive\\Documents\\GitHub\\playwright-cucumber-bdd\\features\\step-definitions\\search.steps.ts:6:25)\n    at C:\\Users\\smkdo\\OneDrive\\Documents\\GitHub\\playwright-cucumber-bdd\\features\\step-definitions\\search.steps.ts:8:71\n    at __awaiter (C:\\Users\\smkdo\\OneDrive\\Documents\\GitHub\\playwright-cucumber-bdd\\features\\step-definitions\\search.steps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\smkdo\\OneDrive\\Documents\\GitHub\\playwright-cucumber-bdd\\features\\step-definitions\\search.steps.ts:15:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I search for \"Playwright\"",
+            "match": {
+              "location": "features\\step-definitions\\search.steps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see results containing \"Playwright\"",
+            "match": {
+              "location": "features\\step-definitions\\search.steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search functionality",
+    "tags": [],
+    "uri": "features\\search.feature"
+  }
+]
